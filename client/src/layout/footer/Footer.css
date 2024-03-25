@@ -1,0 +1,173 @@
+.Footer {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem 1rem 2rem 1rem;
+    background: #f7f7f7;
+}
+
+.f1 {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f1>h1 {
+    font-size: 1.9rem;
+    font-weight: 800;
+    border-radius: 20px;
+   }
+
+
+.f2 {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.f2>p {
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.f2>ul>li {
+    font-weight: 300;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+
+
+.f3 {
+    width: 35%;
+    height: 100%;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1rem 0 1rem;
+
+}
+
+.f-data>h1 {
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.f-data>p {
+    font-weight: 300;
+    padding-top: 1rem;
+}
+
+.f-social {
+    display: flex;
+    padding-top: 2rem;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.f-social>p {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.f4 {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+    padding: 0 1rem 0 1rem;
+
+}
+
+.f4>h1 {
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.f4>p {
+    font-weight: 300;
+    padding-top: 1rem;
+}
+
+.f4-email {
+    margin-top: 1rem;
+    border: 1px solid;
+    width: 70%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+.f4-btn {
+    margin-top: 1rem;
+    width: 30%;
+    padding: 10px;
+    background: #102833;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* Extra Small (xs) */
+@media (max-width: 576px) {
+    .Footer {
+        width: 100vw;
+        height: 30vh;
+        
+    }
+    .f1 {
+      display: none;
+    }
+    .f2 {
+        display: none;
+      }
+      .f4 {
+        display: none;
+      }
+      .f3{
+        width: 100%;
+      }
+  
+}
+
+
+/* Small (sm) */
+@media (min-width: 577px) and (max-width: 768px) {}
+
+
+/* Medium (md) */
+@media (min-width: 769px) and (max-width: 992px)
+ {
+    .Footer {
+        width: 100vw;
+        height: 30vh;
+        
+    }
+    .f1 {
+      display: none;
+    }
+    .f2 {
+        display: none;
+      }
+      .f4 {
+        display: none;
+      }
+      .f3{
+        width: 100%;
+      }
+ }

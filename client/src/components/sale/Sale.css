@@ -1,0 +1,67 @@
+.Sale {
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+}
+
+.sale-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sale-btn {
+    top: 50%;
+    position: absolute;
+    display: flex;
+    left: 40%;
+}
+
+.sale-btn>button {
+    color: white;
+    background: grey;
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 2rem;
+}
+
+.sale-btn>button:hover {
+    background: rgb(180, 179, 179);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+/* Extra Small (xs) */
+@media (max-width: 576px) {
+    .Sale {
+        height: 44vh;
+    }
+
+    .sale-btn {
+        top: 40%;
+        position: absolute;
+        display: flex;
+        left: 30%;
+    }
+}
+
+
+/* Small (sm) */
+@media (min-width: 577px) and (max-width: 768px) {}
+
+
+/* Medium (md) */
+@media (min-width: 769px) and (max-width: 992px)
+ {
+    .Sale {
+        height: 44vh;
+    }
+
+    .sale-btn {
+        top: 40%;
+        position: absolute;
+        display: flex;
+        left: 40%;
+    }
+ }

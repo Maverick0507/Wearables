@@ -1,0 +1,161 @@
+.hero {
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.hero-inner {
+    display: flex;
+    position: relative;
+}
+
+.hero-left-img {
+    width: 50%;
+    height: 120vh;
+}
+
+.hero-left-img>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-right-img {
+    width: 50%;
+    height: 120vh;
+}
+
+.hero-right-img>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.float {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.float>button {
+    padding: 20px 30px 20px 30px;
+    background-color: white;
+}
+
+.float>button:hover {
+    opacity: 0.7;
+    transition: 200ms ease-in-out;
+}
+
+.float>h1 {
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+}
+
+
+
+
+/* Extra Small (xs) */
+@media (max-width: 575.98px) {
+    .hero {
+        text-align: center;
+        height: 50vh;
+    }
+
+    .hero-left-img>img {
+        height: 40vh;
+    }
+
+    .hero-right-img>img {
+        height: 40vh;
+    }
+
+    .float {
+        top: 10%;
+        padding-bottom: 6rem;
+    }
+
+    .float>button {
+        padding: 10px 20px ;
+        background-color: white;
+    }
+
+    .float>h1 {
+        font-size: 2em;
+        color: white;
+    }
+}
+
+
+
+
+
+/* Small (sm) */
+@media (min-width: 577px) and (max-width: 768px) {
+    /* Styles for small screens */
+    .hero
+    {
+        text-align: center;
+        height: 80vh;
+    }
+    .hero-left-img>img {
+        height: 80vh;
+    }
+
+    .hero-right-img>img {
+        height: 80vh;
+    }
+    .float {
+        top: 30%;
+        padding-bottom: 4rem;
+    }
+
+    .float>button {
+        padding: 10px 20px ;
+        background-color: white;
+    }
+
+    .float>h1 {
+        color: white;
+    }
+  }
+
+
+  /* Medium (md) */
+@media (min-width: 769px) and (max-width: 992px) {
+    /* Styles for medium screens */
+    .hero
+    {
+        text-align: center;
+        height: 55vh;
+        margin-bottom: 1rem;
+    }
+    .hero-left-img {
+        height: 50vh;
+    }
+
+    .hero-right-img {
+        height: 50vh;
+    }
+    .float {
+        top: 10%;
+        padding-bottom: 6rem;
+    }
+
+    .float>button {
+        padding: 10px 20px ;
+        background-color: white;
+    }
+
+    .float>h1 {
+        color: white;
+    }
+  }
+
+  

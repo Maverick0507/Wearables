@@ -1,0 +1,173 @@
+
+.product-card {
+    width: 100%;
+    height: 70vh;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 6px 15px 15px -3px rgb(174, 147, 147);
+    transition: 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 0;
+}
+
+.product-img {
+    width: 100%;
+    height: 50%;
+}
+
+.product-img>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+
+
+.color-container {
+    display: flex;
+    height: 10%;
+    padding-bottom: 1em;
+}
+
+.color-btn {
+    margin-right: 1rem;
+    border-radius: 50%;
+    height: 1.8em;
+    width: 2rem;
+}
+
+.color-btn:hover {
+    transform: scale(0.8);
+    transition: 0.2s ease-in-out;
+
+}
+
+.p-data {
+    padding-top: 1rem;
+    padding-left: 5px;
+    height: 30%;
+    padding-bottom: 1rem;
+}
+
+.p-data>p {
+    font-weight: 200;
+    padding-bottom: 1rem;
+}
+
+.p-cart-btn {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.quickAdd {
+    padding: 20px;
+    background: white;
+    color: balck;
+    opacity: 0;
+}
+
+.product-card:hover .quickAdd {
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.del-icon {
+    font-size: 2rem;
+    background: blue;
+    color: white;
+    border-radius: 100%;
+}
+
+
+/* Extra Small (xs) */
+@media (min-width: 350px) and (max-width: 658px) {
+    .product-card {
+        min-height: auto;
+        height: 30vh;
+        width: 35vw;
+    }
+
+    .product-img {
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+
+    .product-img>img {
+        filter: brightness(0.5);
+    }
+
+    .color-container {
+       display: none;
+    }
+
+    .p-data>p {
+        font-weight: 200;
+        padding-bottom: 1rem;
+        font-weight: 400;
+        color: black;
+    }
+
+    .quickAdd {
+        padding: 10px;
+        background: white;
+        color: balck;
+        opacity: 0;
+    }
+}
+
+
+
+
+/* Small (sm) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .product-card {
+        min-height: auto;
+        height: 30vh;
+        width: 25vw;
+    }
+
+    .p-data>p {
+        font-weight: 200;
+        padding-bottom: 0rem;
+    }
+}
+
+
+
+
+/* Medium (md) */
+@media (min-width: 769px) and (max-width: 992px) {
+
+    /* Styles for medium screens */
+    .product-card {
+        width: 100%;
+        height: 40vh;
+    }
+}
+
+
+
+/* large (md) */
+@media (min-width: 992px) and (max-width: 1024px) {
+    .product-card {
+        width: 100%;
+        height: auto;
+    }
+}

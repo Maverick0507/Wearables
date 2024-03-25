@@ -1,0 +1,17 @@
+.navbar
+{
+    height: auto;
+}
+.navbar-brand
+{
+    font-size: 2rem;
+}
+.navitems
+{
+   gap:1rem !important;
+   font-size: 1.1rem;
+}
+.li-items
+{
+    gap: 1rem;
+}

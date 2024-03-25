@@ -1,0 +1,94 @@
+.category {
+    padding-top: 80px;
+    width: 100%;
+    height: auto;
+    background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.Category-form {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7%;
+}
+
+.Category-form>input {
+    height: 40px;
+    width: 50%;
+    border-radius: 10px;
+    padding: 0 0 0 10px;
+    outline: none;
+    -webkit-box-shadow: -8px 4px 58px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -8px 4px 58px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: -8px 4px 58px -13px rgba(0, 0, 0, 0.75);
+}
+
+.Category-form>button {
+    margin-top: 2em;
+    background: grey;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    font-size: 17px;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 10px 10px 30px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 30px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 30px -13px rgba(0, 0, 0, 0.75);
+}
+
+.Category-form>button:hover {
+    -webkit-box-shadow: 10px 10px 30px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 30px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 30px -4px rgba(0, 0, 0, 0.75);
+
+    transition: 0.3s ease-in-out;
+    transform: scale(0.9);
+}
+
+
+
+
+.Table {
+    width: 100vw;
+    height: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.Table table th {
+    border-bottom: 1px black solid;
+    width: 35vw;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.T-btns
+{
+  padding-bottom: 1rem;
+}
+.T-btn-1
+{
+    background: rgb(153, 153, 235);
+    margin: 1rem 1rem 0 0 ;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.T-btn-2
+{
+background: red;  
+  margin: 1rem 1rem 0 0 ;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    color: white;
+}

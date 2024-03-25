@@ -1,0 +1,94 @@
+.craousel-component {
+    position: relative;
+    padding: 3rem;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.craousel-component>h1 {
+    font-size: 3rem;
+}
+
+.craousel-component>p {
+    margin-bottom: 1rem;
+}
+
+
+.crousel-product-card {
+    padding: 2rem;
+    transition: transform 0.3s ease-in-out;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+}
+
+
+.crousel-btn {
+    display: flex;
+    width: 93%;
+    justify-content: space-between;
+    position: absolute;
+    top: 53%;
+
+}
+
+.crousel-btn>button {
+    font-size: 1.4rem;
+    border-radius: 90%;
+}
+
+.c-item {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+@media (min-width: 350px) and (max-width: 658px) {
+    .craousel-component {
+        position: relative;
+        padding: 3rem;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+    .crousel-product-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0;
+
+    }
+}
+
+
+/* Small (sm) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .crousel-product-card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+
+
+/* Medium (md) */
+@media (min-width: 769px) and (max-width: 992px) {
+    .crousel-product-card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+
+
+/* large (md) */
+@media (min-width: 992px) and (max-width: 1024px) {
+    .crousel-product-card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}

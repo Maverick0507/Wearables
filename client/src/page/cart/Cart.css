@@ -1,0 +1,155 @@
+.Cart {
+    min-height: 80%;
+    height: 100%;
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+}
+
+
+.product-details {
+    padding: 3rem;
+
+}
+
+.product-details>h1 {
+    font-size: 2rem;
+}
+
+.cart-info {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    height: 100%;
+    width: 100%;
+}
+
+.product {
+    width: 60%;
+    height: 100%;
+}
+
+.payment-details {
+    width: 40%;
+    height: 100%;
+}
+
+
+.cart-item {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    display: flex;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+}
+
+
+
+.product-image>img {
+    width: 50%;
+    height: 100%;
+    padding: 2re1;
+}
+
+.product-info {
+    text-align: left;
+    width: 100%;
+}
+
+.product-info>h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.product-info>p {
+    color: grey;
+}
+
+.data {
+    color: black;
+    font-size: 0.8rem;
+}
+
+.remove-btn {
+    margin-top: 2rem;
+}
+
+.remove-btn>button {
+    padding: 3% 2%;
+    border-radius: 10px;
+    background: rgb(248, 5, 5);
+    color: white;
+}
+
+.remove-btn>button:hover {
+    background: rgb(203, 15, 15);
+    transition: 0.2s linear;
+}
+
+
+
+
+.payment-details {
+    padding: 1rem;
+}
+
+.payment-btn {
+    background: green;
+    color: white;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.shipping-address {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.shipping-address>input {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border: 1px red solid;
+}
+
+
+
+@media (max-width: 576px) {
+
+    .product-details
+    {
+        padding: 0;
+    }
+    .cart-info {
+        display: flex;
+        padding: 0.5rem;
+        flex-direction: column;
+    }
+    .product {
+        width: 100%;
+        height: 100%;
+    }
+    .cart-item {
+        flex-direction: column;
+        padding: 1rem ;
+    }
+    .product-image
+    {
+        width: 100%;
+        height: 30vh;
+        margin-bottom: 10px;
+    }
+    .product-image>img {
+        width: 100%;
+        height: 100%;
+    }
+    .payment-details
+    {
+        width: 100%;
+    }
+    
+}
